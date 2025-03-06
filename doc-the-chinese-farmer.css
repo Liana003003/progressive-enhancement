@@ -1,3 +1,6 @@
+/* Still needs a lot of work, I will work on it more on the weekend */
+
+
 p {
 	font-size: 16px;
 	font-family: Times New Roman;
@@ -42,8 +45,8 @@ blockquote {
   background-color: lightgray;
  border-left: 3px solid firebrick;
   padding-left: 30px; 
-  padding-top: 80px;
-   padding-bottom: 80px; 
+  padding-top: 60px;
+   padding-bottom: 60px; 
   font-style: italic;
 }
 q.villagers {
@@ -55,7 +58,8 @@ q.farmer {
   border-left: 2px solid green;
 }
 header > h1 {
-    background-color: yellow;
+    background-color: coral;
+    text-align: center;
 }
 .good {
   text-transform: capitalize;
@@ -64,4 +68,82 @@ header > h1 {
 .bad {
   text-transform: capitalize;
   color: red;
+}
+
+
+ul li:nth-child(1) {
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    padding-right: 110px;
+}
+
+ul li:nth-child(2) {
+    background-image: url(mal.png); 
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    padding-right: 110px;
+}
+
+ul li:nth-child(3) {
+    background-image: url(chat.png); 
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    padding-right: 300px;
+}
+p:first-of-type {
+  font-weight: bold;
+}
+.image-container {
+   float: left;
+ 
+}
+.image-container img {
+   height: 350px; 
+     width: 350px;
+   padding-right: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+table {
+  width: 60%;
+  border-collapse: collapse;
+   margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 20px;
+ 
+}
+
+tr {
+  display: flex;
+  justify-content: space-between; 
+}
+
+th, td {
+  flex: 1; 
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+th {
+  background-color: coral;
+  opacity: 80%;
+  
+}
+
+tr:nth-child(even) {
+  background-color: peachpuff; 
+ 
+}
+
+tr:nth-child(odd) {
+  background-color: papayawhip; }
+
+table caption {
+  text-align: center;
 }
