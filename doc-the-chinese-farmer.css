@@ -144,6 +144,6 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background-color: papayawhip; }
 
-table caption {
+.footnote {
   text-align: center;
 }
