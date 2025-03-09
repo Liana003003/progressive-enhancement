@@ -11,7 +11,7 @@ html, body {
   position: flex;
 }
 .v-card {
-width: 50vw; /* Ensures it takes half the screen width */
+width: 50vw; 
 height: 100vh;
 display: flex;
 flex-direction: column;
@@ -23,7 +23,7 @@ border: 1px solid black;
 flex-direction: column; 
 padding: 15px;
 justify-content: start; 
-  background: linear-gradient(to      right, coral, #6a00ff);
+  background: linear-gradient(to right, coral, #6a00ff);
   color: white;
   position: relative;
   flex: 1;
