@@ -1,0 +1,161 @@
+p {
+	font-size: 16px;
+	font-family: Times New Roman;
+  line-height: 1.5;
+  color: darkslateblue;
+  text-align: justify;
+	
+}
+
+a {
+ 
+  font-size: 16px;
+	font-family: Times New Roman;
+  line-height: 1.5;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:visited {
+  color: black;
+}
+
+body {
+  width: 80%;
+  border: 15px; 
+  border-style: solid;
+  border-color: coral;
+  
+  padding: 50px;
+  margin: 80px;
+   background-image: url(https://img.freepik.com/premium-photo/vibrant-yellow-orange-gradient-abstract-background-design_763013-3861.jpg?semt=ais_hybrid);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right bottom;
+}
+
+blockquote {
+ margin: 50px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  font-size: 160%;
+  background-color: lightgray;
+ border-left: 3px solid firebrick;
+  padding-left: 30px; 
+  padding-top: 60px;
+   padding-bottom: 60px; 
+  font-style: italic;
+}
+q.villagers {
+  font-style: italic; 
+  border-left: 2px solid firebrick;
+}
+q.farmer {
+  font-style: italic; 
+  border-left: 2px solid green;
+}
+header > h1 {
+ 
+    background-color: coral;
+    text-align: center;
+    
+}
+.good {
+  text-transform: capitalize;
+  color: green;
+}
+.bad {
+  text-transform: capitalize;
+  color: red;
+}
+
+
+ul li:nth-child(1) {
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: 250px;
+}
+
+ul li:nth-child(2) {
+    background-image: url(mal.png); 
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: 240px;
+}
+
+ul li:nth-child(3) {
+    background-image: url(chat.png); 
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 235px;
+}
+p:first-of-type {
+  font-weight: bold;
+}
+.image-container {
+   float: left;
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between; /* Ensures spacing between text and image */
+   flex-wrap: wrap; 
+   position: relative;
+ 
+}
+.image-container img {
+  height: 450px; 
+  width: 450px;
+  margin-right: 20px;
+  position: static;
+   
+}
+.content {
+flex: 1;
+position: relative;
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+   margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 20px;
+ 
+}
+
+tr {
+  display: flex;
+  justify-content: space-between; 
+}
+
+th, td {
+  flex: 1; 
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+th {
+  background-color: coral;
+  opacity: 80%;
+  
+}
+
+tr:nth-child(even) {
+  background-color: peachpuff; 
+ 
+}
+
+tr:nth-child(odd) {
+  background-color: papayawhip; }
+
+.footnote {
+   text-align: center;
+   font-weight: bold;
+}
